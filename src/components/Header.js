@@ -8,10 +8,15 @@ export default function Header(props) {
         <div>
           <p>Memory Game</p>
           <span className="author">
-            Made By: Utshuk
-            <span>
-              <img src="./GitHub-Mark-Light-32px.png" alt="GitHub"></img>
-            </span>
+            Made By: Utshuk{" "}
+            <a href="https://github.com/meutshuk" style={{ marginLeft: "5px" }}>
+              <img
+                src="https://cdn.svgporn.com/logos/github-icon.svg"
+                alt="GitHub"
+                height="20"
+                width="20"
+              ></img>
+            </a>
           </span>
         </div>
 
